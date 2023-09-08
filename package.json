@@ -1,0 +1,21 @@
+{
+  "name": "envconfigcypress8.30pm",
+  "version": "1.0.0",
+  "description": "Cypress Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --e2e -b chrome",
+    "testPreprod":"cypress open --env name=ankit --config baseUrl=\"https://www.facebook.com\""
+  },
+  "keywords": [
+    "Cypress",
+    "testing",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Ankit",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "12.14"
+  }
+}

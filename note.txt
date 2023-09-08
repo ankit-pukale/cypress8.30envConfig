@@ -1,0 +1,2 @@
+npx cypress open --config baseUrl="https://www.facebook.com"
+npx cypress open --env name=ankit --config baseUrl="https://www.facebook.com"
