@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open --e2e -b chrome",
-    "testPreprod":"cypress open --env name=ankit --config baseUrl=\"https://www.facebook.com\""
+    "testPreprod":"cypress open --env evironamnet=ankit --config baseUrl=\"https://www.facebook.com\"",
+    "devEnv":"npx cypress open --env environment=dev --config baseUrl=\"http://www.flipkart.com\"",
+    "configFileQA":"npx cypress open --config-file qa.config.js"
+
   },
   "keywords": [
     "Cypress",
